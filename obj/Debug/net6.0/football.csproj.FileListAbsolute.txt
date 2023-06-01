@@ -1,0 +1,17 @@
+/Users/carl/Desktop/C#-Projects/football/bin/Debug/net6.0/football
+/Users/carl/Desktop/C#-Projects/football/bin/Debug/net6.0/football.deps.json
+/Users/carl/Desktop/C#-Projects/football/bin/Debug/net6.0/football.runtimeconfig.json
+/Users/carl/Desktop/C#-Projects/football/bin/Debug/net6.0/football.dll
+/Users/carl/Desktop/C#-Projects/football/bin/Debug/net6.0/football.pdb
+/Users/carl/Desktop/C#-Projects/football/bin/Debug/net6.0/HtmlAgilityPack.dll
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.csproj.AssemblyReference.cache
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.GeneratedMSBuildEditorConfig.editorconfig
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.AssemblyInfoInputs.cache
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.AssemblyInfo.cs
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.csproj.CoreCompileInputs.cache
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.csproj.CopyComplete
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.dll
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/refint/football.dll
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.pdb
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/football.genruntimeconfig.cache
+/Users/carl/Desktop/C#-Projects/football/obj/Debug/net6.0/ref/football.dll

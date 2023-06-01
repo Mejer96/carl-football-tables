@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aWHfy6yDoIsv22gwHQTyCEHdXtP//eHsaC2tF+PH9DX6juOLfeURL9Vd83coHn0FMOSdLCDzOcgUQtq4ZtM/lg==",
+  "success": true,
+  "projectFilePath": "/Users/carl/Desktop/C#-Projects/football/football.csproj",
+  "expectedPackageFiles": [
+    "/Users/carl/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
+  "logs": []
+}
