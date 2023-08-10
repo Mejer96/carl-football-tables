@@ -26,7 +26,7 @@ namespace FootballTables
     (Teams.ContainsKey(teamName) is true) ? Teams[teamName] : throw new Exception("error. Team not found");
     
 
-    public void UpdateLeagueTable(Round round, List<Team> tableToUpdate) 
+    public void UpdateLeagueTable(Round round) 
     {
         foreach (Match match in round.Matches) 
         {
@@ -36,8 +36,8 @@ namespace FootballTables
             homeTeam.UpdateStatsAfterGame(match.HomeGoals, match.AwayGoals);
             awayTeam.UpdateStatsAfterGame(match.AwayGoals, match.HomeGoals);
 
-            var orderedTable = tableToUpdate.OrderByDescending(team => team.Points).ThenByDescending(team => team.GoalDifference);
-            tableToUpdate = orderedTable.ToArray().ToList();
+            var orderedTable = LeagueTable.OrderByDescending(team => team.Points);
+            LeagueTable = orderedTable.ToArray().ToList();
         }
         RoundsPlayed++;
     }
@@ -62,25 +62,26 @@ namespace FootballTables
         }
     }
 
-        
-
-    public void UpdateMultipleRounds(List<Round> rounds, List<Team> tableToUpdate) {
+    public void UpdateMultipleRounds(List<Round> rounds) {
         foreach (Round round in rounds) 
         {
-            UpdateLeagueTable(round, tableToUpdate);
+            UpdateLeagueTable(round);
         }
-        PrintLeagueTable(tableToUpdate);
+        PrintLeagueTable();
     }
 
-    public void PrintLeagueTable(List<Team> tableToPrint) 
+    public void PrintLeagueTable() 
     {
         int currentPosition = 1;
-        foreach (Team team in tableToPrint) 
+        foreach (Team team in LeagueTable) 
         {
             string lastFiveGames = team.PrintLastFiveGames();
             Console.WriteLine($"Pos. {currentPosition} {team.Name}  Goaldifference {team.GoalsScored}-{team.GoalsAgainst} Points {team.Points} Games Played {team.GamesPlayed} Form {lastFiveGames}");
             currentPosition++;
         }   
-   }
-   } 
+    }
 }
+}
+
+
+  

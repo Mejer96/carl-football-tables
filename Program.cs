@@ -14,7 +14,7 @@ namespace FootballTables
             var league = new League("ALKA Superliga", teamsDictionary, teamsList);
 
             List<Round> rounds = readRoundFile.ReadAllFileRounds(startingFileNumber: 1, numberOfRoundFilesToRead: 22, league, seasonStage: "mainseason");
-            league.UpdateMultipleRounds(rounds, league.LeagueTable);
+            league.UpdateMultipleRounds(rounds);
             
         }
     }
